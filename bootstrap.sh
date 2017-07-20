@@ -29,7 +29,6 @@ sudo apt-get -y install \
   curl \
   ruby-dev \
   libcurl4-openssl-dev \
-  limysqlclient-dev \
   libmysqlclient20 \
   python-dev \
   python3-dev \
@@ -57,8 +56,7 @@ sudo apt-get -y install \
   python-glade2 \
   libxxf86vm1 \
   vlc \
-  brower-plugin-vlc \
   npm
 
-\curl -sSL https://get.rvm.io | bash -s -- --ignore-dotfiles
+curl -sSL https://get.rvm.io | bash -s -- --ignore-dotfiles
 source ~/.rvm/scripts/rvm
